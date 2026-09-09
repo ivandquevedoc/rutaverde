@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="/favicon.ico" rel="icon shortcut">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Ruta Verde S.A.S. | Turismo de naturaleza · Salento, Quindío</title>
+  <meta name="description"
+    content="Senderismo guiado en el Eje Cafetero y el Parque Nacional Natural Los Nevados. Rutas, precios, requisitos, temporadas y políticas de Ruta Verde S.A.S. — Salento, Quindío." />
+  <meta name="author" content="Ruta Verde S.A.S." />
+
+  <meta property="og:title" content="Ruta Verde S.A.S. — Senderismo en Salento, Quindío" />
+  <meta property="og:description"
+    content="Explora el Valle de Cocora, el Bosque de Niebla y Los Nevados con guías certificados. ¿No sabes qué ruta elegir? Nuestro asistente virtual te orienta." />
+  <meta property="og:type" content="website" />
+
+  <!-- df-messenger: hoja de estilos oficial de Google Conversational Agents (se carga una sola vez) -->
+  <link rel="stylesheet"
+    href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+  <script type="module" src="/src/main.tsx"></script>
+
+  <!-- df-messenger: script oficial de Google Conversational Agents (se carga una sola vez) -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+  <df-messenger
+    project-id="noted-amphora-507318-f8"
+    agent-id="43159e8b-24ef-42a9-bed2-485617ce3bf1"
+    language-code="es"
+    max-query-length="-1">
+    <df-messenger-chat-bubble
+      chat-title="AgenteConversacionalIdqc">
+    </df-messenger-chat-bubble>
+  </df-messenger>
+  <style>
+    df-messenger {
+      z-index: 999;
+      position: fixed;
+      --df-messenger-font-color: #000;
+      --df-messenger-font-family: Google Sans;
+      --df-messenger-chat-background: #f3f6fc;
+      --df-messenger-message-user-background: #d3e3fd;
+      --df-messenger-message-bot-background: #fff;
+      bottom: 16px;
+      right: 16px;
+    }
+    @media (max-width: 480px) {
+      df-messenger {
+        bottom: 12px;
+        right: 12px;
+      }
+    }
+  </style>
+</body>
+
+</html>
